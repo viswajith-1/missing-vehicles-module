@@ -1,0 +1,7 @@
+@use "./constants";
+
+.navbar-bar {
+  background-color: constants.$primary-color;
+  height: 50px;
+  width: 100%;
+}

@@ -1,0 +1,40 @@
+@use "./constants";
+
+.search-card {
+  margin: 24px 40px;
+  margin-top: 35px;
+  background-color: constants.$card-background-color;
+  border-radius: 0 0 8px 8px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.search-card-head {
+  background-color: constants.$primary-color !important;
+  height: 40px;
+  padding: 0%;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 8px 8px 0 0;
+}
+
+.search-bar {
+  padding: 0 10px;
+  padding-bottom: 15px;
+}
+
+.search-bar button {
+  background-color: constants.$primary-color;
+  border: none;
+}
+
+.form {
+  border-radius: 0 0 8px 8px;
+}
