@@ -1,6 +1,7 @@
 import { Form, FormGroup, Label, Input, Button } from "reactstrap";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import { TRUE } from "sass";
 
 const searchValidation = Yup.object({
   choice: Yup.string().required("Choose the search type!"),
@@ -11,7 +12,7 @@ const SearchCard = () => {
 
   const formik = useFormik({
     initialValues: {
-      choice: "",
+      choice: "vehicleNumber",
       search: ""
     },
     validationSchema: searchValidation,
